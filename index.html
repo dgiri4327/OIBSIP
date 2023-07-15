@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/d6ad1bfa18.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="./DG-logo1.png" alt="" />
+        </div>
+        <ul id="side-menu">
+          <li style="--i: 1"><a href="#header">Home</a></li>
+          <li style="--i: 2"><a href="#about">About</a></li>
+          <li style="--i: 3"><a href="#contact">Contact</a></li>
+          <li style="--i: 4"><a href="#services">Services</a></li>
+          <li style="--i: 5"><a href="#portfolio">My Work</a></li>
+          <i class="fa-solid fa-xmark" id="hamburger-close"></i>
+        </ul>
+        <i class="fa-solid fa-bars" id="hamburger-open"></i>
+      </nav>
+      <section class="header-text">
+        <h3>Hello, It's Me</h3>
+        <h1>Deepak Kumar Giri</h1>
+        <h3>
+          And I'm a
+          <span class="multiple-text">Full-Stack Web Developer</span>
+        </h3>
+        <!-- <p>I am a full stack Web Developer,Gamer & Youtuber</p> -->
+      </section>
+    </div>
+  </div>
+
+  <!-- -----------------about------------ -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="deepak-giri.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <pre>
+            Hi, my name is Deepak Kumar Giri and I'm a recent graduate looking to
+            kickstart my career in Web-development. 
+            While I may not have years of experience, I am passionate about
+            HTML, CSS, JAVASCRIPT, NODEJS, SOLIDITY and eager to learn all that I can. 
+            Throughout my education, I have gained hands-on experience in Web-development and 
+            Blockchain Development which I believe will be invaluable as I begin my professional journey. 
+            I'm excited to collaborate with industry professionals, take on new challenges,
+            and contribute to the success of any project I'm involved in. 
+            In my free time, I enjoy playing Guitar, playing Basketball, online web suffering, 
+            learning new things form internet which helps me stay creative and inspired. 
+            Thank you for taking the time to review my portfolio, and I hope to have 
+            the opportunity to work with you soon. .
+          </pre>
+          <div class="tab-title">
+            <p class="tab-links active-link" id="skills-btn">
+              Skills
+            </p>
+            <p class="tab-links" id="experience-btn">
+              Language
+            </p>
+            <p class="tab-links" id="education-btn">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills-tab">
+            <ul>
+              <li>
+                <span>Full-Stack Web developer</span><br />
+                full-stack Web developer
+              </li>
+              <li><span>Guitarist</span><br />Playing Guitar</li>
+              <li><span>Web-designer</span><br />Designer</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience-tab">
+            <ul>
+              <li>
+                <span>HTML</span><br />
+                Rating(8/10)
+              </li>
+              <li><span>CSS</span><br />Rating(7/10)</li>
+              <li><span>Javascript</span><br />Rating(6/10)</li>
+              <li><span>Blockchain</span><br />Rating(6/10)</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education-tab">
+            <ul>
+              <li>
+                <span>10th</span><br />
+                47.80%(2018)
+              </li>
+              <li><span>12th</span><br />60%(2020)</li>
+              <li><span>B.E</span><br />6.74(2020-2024)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------services------------ -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <span class="material-symbols-outlined"> code </span>
+          <h2>Web developer</h2>
+          <p>
+          <ul>
+            <li>I'm a web developer.</li>
+            <li> I have good knowledge of HTML,CSS,JAVASCRIPT.</li>
+            <li>I'm also familiar with NODEJS & MongoDB.</li>
+          </ul>
+
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <span class="fa-brands fa-ethereum"></span>
+          <h2>Blockchain</h2>
+          <p>
+          <ul>
+            <li>I am a Blockchain Developer.</li>
+            <li>I have a good knowledge of Solidity, Etherium Language.</li>
+            <li>I have good skills on them.</li>
+          </ul>
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            design_services
+          </span>
+          <h2>Web Designer</h2>
+          <p>
+          <ul>
+            <li>I am a web designer</li>
+            <li>I have interest & little bit knowledge of web desiging</li>
+            <li>I design (A Blood Donation website, my portfolio).</li>
+          </ul>
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------my work---------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="login.png" />
+
+          <div class="layer">
+            <h3>Blood Donation website</h3>
+            <p>
+              I made a Blood Donation website where people Donate blood and needed people take from there.
+              In home page of this website have search-bar for blood group are available or not.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="portfolio.png" />
+          <div class="layer">
+            <h3>Login Page</h3>
+            <p>
+              I made a login Page that shows my work, services, education, skills.
+              I made this using html, CSS, javascript.
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- -----------------contact------------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <i class="fa-regular fa-envelope"></i>dgiri4327@gmail.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>+91 748-830-4880</p>
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div>
+            <a href="#" download class="btn2">Download Cv</a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email Id" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="inter.js"></script>
+  <script>
+    // let sideminu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sideminu.style.right = "0";
+    }
+    function closemenu() {
+      sideminu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    // console.log(tablinks, tabcontent);
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classlist.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classlist.remove("active-tab");
+      }
+      // var event = event.currentTarget.classlist.add("active-links");
+      // document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycby_OiqB4aO2OPTRKHLoLOIHAPfCRq9g3l3vbyyr38W_ImkUWSuRXDaDP4SlYBuaP_nH/exec";
+    const form = document.forms["submit-to-google-sheet"];
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => console.log("Success!", response))
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+  <script>
+    var typed = new Typed(".multiple-text", {
+      strings: ["Full-Stack Developer", "BlockChain Developer", "Web-designer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
